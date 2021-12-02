@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+}
+.item img {
+  width: 70px;
+  border-radius: 50%;
+
+  margin-right: 20px;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .1s all;
+}
+.icon:hover {
+  transform: scale(1.1);
+  background: #5458F7;
+}
+.text {
+  display: flex;
+  align-items: center;
+}
+.text span {
+
+  font-size: 18px;
+  line-height: 26px;
+}
+.icon i {
+  
+}
