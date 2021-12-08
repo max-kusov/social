@@ -14,11 +14,19 @@ ul {
 li {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all .1s;
+}
+a:hover {
+  color: #5458F7;
+}
 .app-wrapper {
   display: grid;
   grid-template-areas: 
   "header header"
-  "nav profile";
+  "nav cont";
   grid-template-rows: 60px 80vh;
   grid-template-columns: 2fr 8fr;
   grid-gap: 10px;
@@ -26,5 +34,12 @@ li {
 
   width: 1200px;
   margin: 0 auto;
+}
+.app-wrapper-content {
+    grid-area: cont;
+    background-color: #191A1D;
+    border-radius: 20px;
+  
+    overflow: hidden;
 }
 

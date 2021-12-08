@@ -6,9 +6,8 @@ import Post from "./Post/Post";
 const MyPosts = () => {
   return (
     <div>my post
-      <Post />
-      <Post />
-      <Post />
+      <Post message='how aree you?' />
+      <Post message='my first post?' />
     </div>
   )
 }

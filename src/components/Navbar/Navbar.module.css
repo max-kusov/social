@@ -9,3 +9,6 @@
   font-size: 22px;
   cursor: pointer;
 }
+.active {
+  color: #5458F7;
+}
