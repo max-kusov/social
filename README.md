@@ -1,1 +1,1 @@
-Deploy https://trusting-varahamihira-66273b.netlify.app/
+Deploy https://modest-cray-a9696c.netlify.app/
